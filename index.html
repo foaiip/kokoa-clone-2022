@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- link:css 단축키 입력하면 css 코드 작성됨-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,6 @@
         <span>No Service</span>
         <!-- todo: wifi icon-->
         <i class="fa-solid fa-wifi"></i>
-        </svg>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
@@ -30,17 +29,22 @@
 
     <header class="welcome-header">
       <h1 class="welcome-header__title">Welcome to KOKOA Talk</h1>
-      <p class="welcome-header__text">If you have a KOKOA Account, log in with your email or phone number.</p>
+      <p class="welcome-header__text">
+        If you have a KOKOA Account, log in with your email or phone number.
+      </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="text" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="text" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find KOKOA Account or Password</a>
     </form>
-    
-    <script src="https://kit.fontawesome.com/e01188ee10.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://kit.fontawesome.com/e01188ee10.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- 스크립트 코드는 body 닫기 직전 항상 마지막에 있어야 한다 -->
   </body>
 </html>

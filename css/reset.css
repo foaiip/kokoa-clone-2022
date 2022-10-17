@@ -107,6 +107,7 @@ section {
 }
 body {
   line-height: 1;
+  color: #2e363e;
 }
 ol,
 ul {
@@ -126,4 +127,13 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
